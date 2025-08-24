@@ -1,6 +1,6 @@
-# CodeX - 2.0
+# codeˣ - 2.0
 
-Welcome to the CodeX Initiative! This repository is designed to help first-year CSE students start their programming journey through curated problem statements and resources across multiple exciting domains.
+Welcome to the codeˣ Initiative! This repository is designed to help first-year CSE students start their programming journey through curated problem statements and resources across multiple exciting domains.
 
 ## Objective
 
@@ -25,7 +25,7 @@ The aim of this initiative is to provide beginner-friendly programming problem s
 
 ## Contact
 
-- Arnav Kumar (CodeX 2.0 lead) - +91 9869161574
+- Arnav Kumar (codeˣ 2.0 lead) - +91 9869161574
 
 ---
 
