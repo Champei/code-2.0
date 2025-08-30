@@ -1,7 +1,3 @@
-Of course. Here is the list of problems formatted for a `README.md` file on GitHub, complete with YouTube tutorials for the more challenging problems and your recommended playlist.
-
------
-
 # Beginner's Guide to Codeforces Problems
 
 This is a curated list of beginner-friendly Codeforces problems designed to build your problem-solving skills without requiring knowledge of complex Data Structures or Algorithms (DSA). The problems focus on logic, math, greedy approaches, and careful implementation.
