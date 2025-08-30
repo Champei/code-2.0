@@ -16,15 +16,15 @@ You will also require some elementary knowledge blockchain fundamentals and ethe
 
 - For ethereum, you can follow the first 18 videos of - [https://www.youtube.com/playlist?list=PLgPmWS2dQHW9FmqNqug3M5ooNuRqP-alu](https://www.youtube.com/playlist?list=PLgPmWS2dQHW9FmqNqug3M5ooNuRqP-alu)
 
----
-
-- All thing of one place from basics of blockchain to full stack web3 development - [https://www.youtube.com/watch?v=gyMwXuJrbJQ](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
-
 ## Development
 
 Now, you can start learning solidity language used for writing smart contracts on the ethereum chain.
 
 - Solidity full course - [https://www.youtube.com/playlist?list=PLgPmWS2dQHW9u6IXZq5t5GMQTpW7JL33i](https://www.youtube.com/playlist?list=PLgPmWS2dQHW9u6IXZq5t5GMQTpW7JL33i)
+
+---
+
+- All thing of one place from basics of blockchain to full stack web3 development - [https://www.youtube.com/watch?v=gyMwXuJrbJQ](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
 
 # Problem Statement 1 - Decentralised Lottery System (Easy)
 
@@ -67,8 +67,6 @@ Design a smart contract that acts as a simple escrow for a transaction between t
 - **Deposit:** A function allows the depositor to send a specific amount of ETH into the contract. No one else should be able to deposit funds.
 - **Approval**: The arbiter has the sole authority to approve the transaction. They will call a function to signal that the funds can be released.
 - **Withdrawal:** Once the arbiter has approved the transaction, and only then, the beneficiary can call a function to withdraw all the funds from the contract.
-
-**Note:** Write the code on Remix IDE in Solidity for the Ethereum blockchain.
 
 ---
 

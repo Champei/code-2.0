@@ -26,6 +26,7 @@ The aim of this initiative is to provide beginner-friendly programming problem s
 ## Contact
 
 - Arnav Kumar (codeˣ 2.0 lead) - +91 9869161574
+- Aayush Yadav (CSESA, President) - +91 7678375356
 
 ---
 
