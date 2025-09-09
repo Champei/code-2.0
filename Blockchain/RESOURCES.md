@@ -2,9 +2,13 @@
 
 A curated list of blockchain and Ethereum development resources.
 
+## Pre-requisites
+
+Before diving into development, understand how Bitcoin works:  
+- [How Bitcoin Works (Video)](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
+
 ## Blockchain Fundamentals
 
-- [How Bitcoin Works (Video)](https://www.youtube.com/watch?v=bBC-nXj3Ng4) – Best beginner-friendly explanation of Bitcoin.
 - [Blockchain Fundamentals (YouTube Playlist, Lectures 1–12)](https://www.youtube.com/playlist?list=PLgPmWS2dQHW-BRQCQCNYgmHUfCN115pn0)
 - [Ethereum Basics (YouTube Playlist, Videos 1–18)](https://www.youtube.com/playlist?list=PLgPmWS2dQHW9FmqNqug3M5ooNuRqP-alu)
 
@@ -14,4 +18,4 @@ A curated list of blockchain and Ethereum development resources.
 
 ## Full-Stack Web3
 
-- [Web3 Development – All-in-One Tutorial](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
+- [All-in-One Blockchain to Full-Stack Web3 Tutorial](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
