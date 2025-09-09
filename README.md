@@ -13,13 +13,7 @@
 ## Welcome
 
 **codeˣ 2.0** is designed as the primary launchpad into Computer Science for first-year CSE students.  
-This repository helps you build strong foundational skills while exploring various domains of technology.  
-
-It includes:  
-- Fundamentals – introductory materials for each domain  
-- Resources – curated references and learning content  
-- Problem Statements & Projects – hands-on exercises  
-- Advanced Directions – pathways for deeper exploration  
+This repository helps you build strong foundational skills while exploring various domains of technology.   
 
 ---
 
