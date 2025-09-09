@@ -1,43 +1,22 @@
 # Quantum Computing
 
-This section is mostly focused on learning, as many of you would not be familiar with quantum computing in general.  
-For this section we will explicitly use python, specifically we will be using QisKit which is a python library for Quantum Computing.  
+This section is mostly focused on learning, as many of you may not be familiar with quantum computing.  
+We will explicitly use Python, specifically **Qiskit**, which is a Python library for Quantum Computing.  
 
-Quantum Computing has a higher barrier of entry in general because of a steep learning curve & lack of many easily readable resources.  
-For this reason a difficult problem is not included. It is highly advised to solve both problems, as once you start to get the hang of Quantum Computing,
-both problems become decently easy.
-We will try to simplify that by giving you 2 very famous Quantum Computing algorithms to implement as the problem statements.  
-
-Most of the resources provided to you will be documents or code repositories, as there aren't many excellent learning resources in video format.  
-
-## Pre-requisites
-
-You will be required to have at least some basic understanding of Quantum Mechanics before attempting to research and learn about these algorithms  
-(hope you were paying attention in physics lectures :) ). A good resource that also helped me in my physics course is:  
-- An amazing channel which explains quantum mechanics in an easy way - [https://www.youtube.com/@quantumsensechannel](https://www.youtube.com/@quantumsensechannel)  
-
-You will also require some elementary knowledge of python itself, as it is the primary programming language used for Quantum Computing.  
-- Learn python - [https://www.w3schools.com/python/](https://www.w3schools.com/python/)  
-
-Probably the best resource to learn qiskit is the IBM docs.  
-- The Docs - [https://quantum.cloud.ibm.com/docs/en/guides](https://quantum.cloud.ibm.com/docs/en/guides)  
-
-## Problem Statement 1 - Grover's Algorithm (Easy)
-
-- Some Light Quantum Mechanics - [https://www.youtube.com/watch?v=MzRCDLre1b4](https://www.youtube.com/watch?v=MzRCDLre1b4)  
-- 3B1B Video of Grover's Algorithm - [https://www.youtube.com/watch?v=RQWpF2Gb-gU](https://www.youtube.com/watch?v=RQWpF2Gb-gU)  
-- A Grover's Algorithm Tutorial for Qiskit - [https://quantum.cloud.ibm.com/docs/en/tutorials/grovers-algorithm](https://quantum.cloud.ibm.com/docs/en/tutorials/grovers-algorithm)  
-- Another great resource for understanding implementation of Grover's Algorithm - [https://github.com/Qiskit/textbook/blob/main/notebooks/ch-algorithms/grover.ipynb](https://github.com/Qiskit/textbook/blob/main/notebooks/ch-algorithms/grover.ipynb)  
-
-## Problem Statement 2 - BB84, A Quantum Encryption Algorithm (Intermediate)
-
-- Some reference code for you - [https://codeocean.com/capsule/8352553/tree/v1](https://codeocean.com/capsule/8352553/tree/v1)  
-- A Decent Video for you to understand BB84 - [https://www.youtube.com/watch?v=V3WzH2up7Os](https://www.youtube.com/watch?v=V3WzH2up7Os)  
-
-## Extra Resources
-
-- Some extra resources for you to explore for yourself - [https://github.com/desireevl/awesome-quantum-computing](https://github.com/desireevl/awesome-quantum-computing)
+Quantum Computing has a higher barrier of entry due to a steep learning curve and limited beginner-friendly resources.  
+For this reason, only two problem statements are included, which are famous Quantum Computing algorithms.  
 
 ---
 
-Problem Statements By - Hrishabh Mittal
+## Structure of This Domain
+
+- [RESOURCES.md](./RESOURCES.md) – curated learning resources
+
+### Problem Statements
+
+- [PS1 – Grover's Algorithm (Easy)](./PS1.md)
+- [PS2 – BB84 Quantum Encryption Algorithm (Intermediate)](./PS2.md)
+
+---
+
+**Credits:** Problem statements curated by [Hrishabh Mittal](https://github.com/HrishabhMittal)
