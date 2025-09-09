@@ -1,10 +1,10 @@
 # Quantum Computing
 
-This section is mostly focused on learning, as many of you may not be familiar with quantum computing.  
-We will explicitly use Python, specifically **Qiskit**, which is a Python library for Quantum Computing.  
+This section is mostly focused on learning, as many of you would not be familiar with quantum computing.  
+For this section we will explicitly use Python, specifically **Qiskit**, which is a Python library for Quantum Computing.  
 
-Quantum Computing has a higher barrier of entry due to a steep learning curve and limited beginner-friendly resources.  
-For this reason, only two problem statements are included, which are famous Quantum Computing algorithms.  
+Quantum Computing has a higher barrier of entry in general because of a steep learning curve & lack of many easily readable resources.  
+For this reason a difficult problem is not included. It is highly advised to solve both problems, as once you start to get the hang of Quantum Computing, both problems become decently easy.
 
 ---
 
@@ -14,8 +14,8 @@ For this reason, only two problem statements are included, which are famous Quan
 
 ### Problem Statements
 
-- [PS1 – Grover's Algorithm (Easy)](./PS1.md)
-- [PS2 – BB84 Quantum Encryption Algorithm (Intermediate)](./PS2.md)
+- [PS1 – Grover's Algorithm (Easy)](./PS1.md)  
+- [PS2 – BB84, A Quantum Encryption Algorithm (Intermediate)](./PS2.md)
 
 ---
 
