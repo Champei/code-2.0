@@ -90,12 +90,12 @@ If you cannot complete tasks on time, you can revisit them later. The repository
 
 <details>
 <summary><strong>I am a complete beginner. Where should I start?</strong></summary>
-Start with [TechSoC-25](https://github.com/YashBhamare123/TechSoC-25) for environment setup and basic concepts. Then proceed to Competitive Programming in this repository.
+Start with TechSoC-25 (linked above) for environment setup and basic concepts. Then proceed to Competitive Programming in this repository.
 </details>
 
 <details>
 <summary><strong>Which programming language should I use?</strong></summary>
-Python and C++ are recommended for CP and interviews. However, any programming language may be used. The emphasis is on problem-solving rather than syntax.
+C++ is recommended for CP and interviews. However, any programming language may be used depending on domain. The emphasis is on problem-solving rather than syntax.
 </details>
 
 <details>
@@ -110,7 +110,7 @@ No. Competitive Programming is mandatory. After that, you may choose domains acc
 
 <details>
 <summary><strong>What should I do if I get stuck?</strong></summary>
-1. Revisit the `resources.md` file for the relevant domain  
+1. Revisit the `RESOURCES.md` file for the relevant domain  
 2. Search online using Google or StackOverflow  
 3. Break the problem into smaller subproblems  
 4. Discuss with peers or seniors  
