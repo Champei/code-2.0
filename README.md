@@ -62,10 +62,10 @@ After CP basics, you may choose one or more domains:
 - [Web Development](./Web%20Development/README.md)  
 
 Each domain contains:  
-- `fundamentals.md` – essential concepts  
-- `resources.md` – curated references  
-- `problems.md` – projects and problem statements  
-- `advanced.md` – optional advanced content  
+- `README.md` – brief introduction and roadmap  
+- `RESOURCES.md` – curated references and tutorials  
+- `PS.md` – individual problem statements and projects  
+- Optional advanced topics may be included in separate PS or additional markdown files
 
 ---
 
@@ -80,15 +80,15 @@ If you cannot complete tasks on time, you can revisit them later. The repository
 
 ## Usage Guide
 
-1. If you are a beginner, start with [TechSoC-25](https://github.com/YashBhamare123/TechSoC-25).  
-2. Begin with **Competitive Programming**.  
+1. If you are a beginner, start with [TechSoC-25](https://github.com/YashBhamare123/TechSoC-25) for setup and basic coding practice.  
+2. Begin with **Competitive Programming** to strengthen logic and problem-solving skills.  
 3. Select a domain of interest.  
-4. Work through the files in order:  
-   - `fundamentals.md`  
-   - `resources.md`  
-   - `problems.md`  
-   - `advanced.md`  
-5. Track and share progress with peers.  
+4. Follow the domain structure:  
+   - `README.md` – overview and roadmap  
+   - `RESOURCES.md` – learn core concepts and tools  
+   - `PS.md` – solve problem statements/projects sequentially  
+   - Additional or advanced topics can be explored via extra markdown files  
+5. Track and share your progress with peers, discuss approaches, and learn collaboratively.
 
 ---
 
