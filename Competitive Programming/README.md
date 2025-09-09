@@ -24,3 +24,7 @@ It provides a carefully selected set of beginner-friendly Codeforces problems to
   Problems requiring creative thinking and construction of valid solutions.
 
 Start with the resources, then solve the problem sets in order.
+
+---
+
+**Credits:** Problem statements curated by [Ankur Singh](https://github.com/ankur556)
