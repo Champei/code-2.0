@@ -59,7 +59,6 @@ Each domain contains:
 - `README.md` – brief introduction and roadmap  
 - `RESOURCES.md` – curated references and tutorials  
 - `PS.md` – individual problem statements and projects  
-- Optional advanced topics may be included in separate PS or additional markdown files
 
 ---
 
@@ -81,7 +80,6 @@ If you cannot complete tasks on time, you can revisit them later. The repository
    - `README.md` – overview and roadmap  
    - `RESOURCES.md` – learn core concepts and tools  
    - `PS.md` – solve problem statements/projects sequentially  
-   - Additional or advanced topics can be explored via extra markdown files  
 5. Track and share your progress with peers, discuss approaches, and learn collaboratively.
 
 ---
