@@ -8,17 +8,19 @@ A curated collection of Capture The Flag (CTF) platforms, challenges, and educat
 
 - [RESOURCES.md](./RESOURCES.md) – curated learning resources  
 
-### Modules / Categories
+### Categories
 
-- [Beginner-Friendly Platforms](./BEGINNER.md)  
-- [CTF Practice & Competitions](./COMPETITIONS.md)  
-- [Binary Exploitation & Reverse Engineering](./BINARY.md)  
-- [Cryptography Challenges](./CRYPTO.md)  
-- [Web Security Challenges](./WEB.md)  
-- [Mobile & Specialized CTFs](./MOBILE.md)  
-- [Tools & Utilities](./TOOLS.md)  
+| Module / Category                           | Description                                      |
+| ------------------------------------------- | ------------------------------------------------ |
+| [Beginner-Friendly Platforms](./BEGINNER.md) | Beginner-focused CTF platforms and tutorials.  |
+| [CTF Practice & Competitions](./COMPETITIONS.md) | Practice challenges and competitive events.     |
+| [Binary Exploitation & Reverse Engineering](./BINARY.md) | Binary exploitation, reverse engineering, ROP. |
+| [Cryptography Challenges](./CRYPTO.md)      | Cryptography learning and practice challenges.  |
+| [Web Security Challenges](./WEB.md)        | Web application security exercises.             |
+| [Mobile & Specialized CTFs](./MOBILE.md)   | Mobile and niche CTF challenges.                |
+| [Tools & Utilities](./TOOLS.md)            | Useful tools for learning and practice.         |
 
-Start with the resources and explore the categories of your interest.
+Start with the resources and explore the modules of your interest.
 
 ---
 
