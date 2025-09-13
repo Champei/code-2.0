@@ -10,12 +10,8 @@ FreeCodeCamp, Apna College, CodewithHarry, CodewithChai, Coding Ninja are some p
 ---
 
 ## Files
-
-- [RESOURCES.md](./RESOURCES.md) – fundamentals, guides, and references  
-- [PS1 – Beginner: Build a basic layout (CSES)](./PS1.md)  
-- [PS2 – Intermediate: Tesla homepage clone](./PS2.md)  
-- [PS3 – Intermediate: Course Scheduler (Google Calendar Integration)](./PS3.md)  
-- [PS4 – Advanced: Health Center Appointment Booking System](./PS4.md)  
-- [PS5 – Advanced: Anonymous Dating App for College](./PS5.md)  
-- [PS6 – Advanced: One-to-One WebRTC Video Call & File Transfer](./PS6.md)  
-- [PS7 – Pro-Projects List for Codex2.0](./PS7.md)
+- [RESOURCES.md](./RESOURCES.md) – Basic references and channels  
+- [PS1.md](./PS1.md) – Beginner problem statement  
+- [PS2.md](./PS2.md) – Intermediate problem statements  
+- [PS3.md](./PS3.md) – Advanced problem statements  
+- [PROPROJECTS.md](./PROPROJECTS.md) – Pro projects list for Codex2.0
