@@ -46,6 +46,8 @@ The system leverages deep learning and computer vision techniques to answer:
 
 ## 📚 Resources
 
+**[Example Notebook](https://colab.research.google.com/drive/1oOcEl_hDSO1L1GH54Ao4HGOJC4y0ZB7c#scrollTo=Vx59lvMX11P3)**
+
 **Datasets (readily available in libraries):**
 
 * [MNIST Handwritten Digits (Yann LeCun)](http://yann.lecun.com/exdb/mnist/)
