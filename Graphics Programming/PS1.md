@@ -10,10 +10,10 @@ Create a game that visually replicates the working of a **Turing Machine**.
 - The game should reflect the working of a Turing Machine while being fun to play.
 
 ## EXAMPLE PUZZLE
-Initial: 110010101001
-Goal: all zeros to the left, all ones to the right: 000000111111
+**Initial:** 110010101001 </br>
+**Goal:** all zeros to the left, all ones to the right: 000000111111
 
-Allowed commands:
+**Allowed commands:**
 - MOV L / MOV R — move pointer left/right one cell.
 - READ — reads symbol under pointer into register r.
 - WRITE x — writes symbol x under pointer (x is 0 or 1).
