@@ -42,7 +42,6 @@ The system leverages machine learning and deep learning techniques to answer:
 
 You have to explore and analyze a dataset to extract insights, build predictive models (if relevant), and communicate findings clearly. Emphasis is on thorough analysis + reproducibility + presentation.
 
-TODO
 
 ---
 
@@ -67,7 +66,6 @@ The system leverages text processing and similarity measures to answer:
 > “If you liked movie X, you may also like movie Y.”
 
 
-TODO
 ### Advanced
  > For those who dare
 ---
