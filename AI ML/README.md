@@ -24,6 +24,10 @@ Well, there is...
 
 ## PS
 
+**Note:** The repo for this domain has been structured differently compared to others. This is because we do not intend to force a particular progression ladder on you. Select and try the PS you find interesting(and won't be overwhelmed with), and feel free to ask for more help and/or resources. All of us have been where you are currently, so nothing's unconquerable. 
+
+Well, without further ado...
+
 ### Beginner
 > Python hi aata hai..
 ---
@@ -67,7 +71,14 @@ TODO
 ### Advanced
  > For those who dare
 ---
-1. 🎲 [Problem Statement: AI Dungeon Master Chatbot for Dungeons & Dragons](DnD.md)
+1. 🧑‍⚕️ [Problem Statement: Multimodal Sentiment Analysis for a Virtual Counsellor](Sentiment_analysis.md)
+
+Build an AI-powered **virtual counsellor** that can analyze both **text** (what someone says) and **video** (how they express it) to detect sentiment and emotions. The system leverages multimodal learning to answer:
+
+> “What is this person *really* feeling, based on both their words and expressions?”
+
+
+2. 🎲 [Problem Statement: AI Dungeon Master Chatbot for Dungeons & Dragons](DnD.md)
 
 Build an AI-powered **Dungeon Master (DM) agent** that runs a Dungeons & Dragons (D\&D 5e-inspired) campaign, handling story narration, dice rolls, combat, and player interactions. The DM dynamically generates scenarios, describes environments, enforces rules, and coordinates Non-Player Character (NPC) agents.
 
