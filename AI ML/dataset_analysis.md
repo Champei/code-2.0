@@ -6,8 +6,7 @@ Students will explore and analyze one or more of the following datasets to extra
 
 The datasets available:
 
-1. **[House Price Prediction (easy)](https://www.geeksforgeeks.org/machine-learning-house-price-prediction-using-machine-learning-in-python/)** - data about housing market rate in a particular city.
-2. **[Student Stress Monitoring](https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monitoring-datasets)** — physiological / survey data about student stress.
+1. **[Student Stress Monitoring](https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monitoring-datasets)** — physiological / survey data about student stress.
 2. **[Recipe Ingredients](https://www.kaggle.com/datasets/kaggle/recipe-ingredients-dataset)** — data about recipes and their ingredients.
 3. **[Student Performance Factors](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors)** — factors (demographic, behavioral, academic, etc.) that might influence student performance.
 
