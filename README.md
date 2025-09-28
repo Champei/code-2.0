@@ -73,7 +73,7 @@ If you cannot complete tasks on time, you can revisit them later. The repository
 
 ## Usage Guide
 
-1. If you are a beginner, start with [TechSoC-25](https://github.com/YashBhamare123/TechSoC-25) for setup and basic coding practice.  
+1. If you are a beginner, start with [TechSoC-25](https://github.com/YashBhamare123/TechSoC-25) for setup and basic coding practice. Also various [resources](https://github.com/YashBhamare123/TechSoC-25/blob/main/RESOURCES.md) about basic programming are provided by TechSoC too. 
 2. Begin with **Competitive Programming** to strengthen logic and problem-solving skills.  
 3. Select a domain of interest.  
 4. Follow the domain structure:  
