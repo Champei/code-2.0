@@ -1,0 +1,175 @@
+:root{
+  --page-max: 1100px;
+  --bg: #ffffff;         
+  --text: #000000;
+  --muted: #333333;
+  --link: #0645ad;       
+  --border: #111111;     
+  --card-pad: 18px;
+  --radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+:root.dark{
+  --bg: #0b1220;
+  --text: #e6eef8;
+  --muted: #9aa4b2;
+  --link: #7fb1ff;
+  --card-bg: #0f1724;
+  --border: #d6e1ff22;
+}
+
+* { box-sizing: border-box; }
+html,body { height: 100%; margin: 0; }
+
+.site-header { border-top: 4px solid #000; } 
+.header-top { height: 2px; } 
+
+.container {
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 0 14px;
+}
+
+.header-inner {
+  text-align: center;
+  padding: 14px 0 6px;
+}
+.site-title {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.nav-actions {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  border-bottom: 1px solid #111;
+  padding-bottom: 8px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.nav-item {
+  display: inline-block;
+  padding: 6px 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--link);
+  border: 1px solid transparent;
+}
+.nav-item.active {
+  background: #e8e8e8;
+  color: #000;
+  border: 1px solid #bdbdbd;
+  box-shadow: inset 0 -3px 0 rgba(0,0,0,0.03);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 6px;
+}
+.btn {
+  border: 1px solid #777;
+  background: #fafafa;
+  padding: 6px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn.small { font-size: 13px; padding: 6px 8px; }
+.btn.primary, .btn.primary:hover { background: #0645ad; color: #fff; border-color: #0645ad; }
+.btn:hover { filter: brightness(0.97); }
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: min-content;
+  gap: 12px;
+  margin: 18px auto 60px;
+  max-width: var(--page-max);
+  padding: 0 14px;
+}
+
+.card {
+  border: 1px solid var(--border);
+  padding: var(--card-pad);
+  box-shadow: none;
+  border-radius: var(--radius);
+  color: var(--text);
+}
+
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #111;  
+}
+
+.card-text { margin: 12px 0 0; line-height: 1.5; color: var(--muted); }
+.bullet { margin: 8px 0 0 18px; color: var(--muted); }
+.card a { color: var(--link); }
+
+.big.tall { min-height: 340px; }     
+.block.big { display: flex; flex-direction: column; }
+.bottom { min-height: 260px; }       
+
+.block .card-text { flex: 1; }
+
+.green { background: #9ff5a9; }   
+.blue  { background: #a8c9f5; }   
+.orange{ background: #f7d59b; }   
+.red   { background: #f4a9a9; }   
+
+.card { border-color: #111; }
+
+.modal {
+  position: fixed; inset: 0; display: none;
+  align-items: center; justify-content:center;
+  background: rgba(0,0,0,0.45); z-index: 1200;
+}
+.modal.open { display: flex; }
+.modal-inner {
+  width: 360px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 16px;
+  border: 1px solid #bdbdbd;
+}
+.modal-inner h3 { margin: 0 0 12px; }
+.modal-inner label { display:block; margin-bottom: 8px; font-size: 13px; color: #222; }
+.modal-inner input { width: 100%; padding: 8px; margin-top:6px; border: 1px solid #bbb; border-radius: 4px; }
+.modal-actions { display:flex; gap: 8px; margin-top:12px; justify-content:flex-end; }
+.modal-close { position:absolute; right:16px; top:12px; background:transparent; border:0; font-size:20px; cursor:pointer; }
+
+:root.dark body, html.dark body {
+  background: var(--bg);
+  color: var(--text);
+}
+:root.dark .card { background: #0f1724; border-color: rgba(255,255,255,0.05); color: var(--text); }
+:root.dark .green  { background: #10381a; }  
+:root.dark .blue   { background: #16243f; }
+:root.dark .orange { background: #2f2310; }
+:root.dark .red    { background: #3a1a1a; }
+:root.dark .site-title { color: var(--text); }
+:root.dark .nav-item { color: var(--link); }
+:root.dark .nav-item.active { background: rgba(255,255,255,0.03); color: var(--text); border-color: rgba(255,255,255,0.06); }
+
+@media (max-width: 900px) {
+  .main-grid { grid-template-columns: 1fr; }
+  .nav-actions { gap: 12px; flex-direction: column; align-items:center; }
+  .actions { order: 2; }
+  .main-grid { margin-top: 12px; }
+}
+

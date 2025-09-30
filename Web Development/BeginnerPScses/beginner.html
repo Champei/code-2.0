@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CSES-style Demo</title>
+  <link rel="stylesheet" href="beginner.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-top"></div> 
+    <div class="container header-inner">
+         <div class="logo">
+        <img src="cses_logo.png" alt="CSES Logo">
+      <h1 class="site-title">Code Submission Evaluation System</h1>
+
+      <div class="nav-actions">
+        <nav class="main-nav" aria-label="Main navigation">
+          <a class="nav-item active" href="#">HOME</a>
+          <a class="nav-item" href="#">COURSES</a>
+          <a class="nav-item" href="#">CONTESTS</a>
+          <a class="nav-item" href="#">STATISTICS</a>
+          <a class="nav-item" href="#">ABOUT</a>
+        </nav>
+
+        <div class="actions">
+          <button id="loginBtn" class="btn small">Login</button>
+          <button id="themeToggle" class="btn small">Dark mode</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-grid">
+    <section class="card block big tall green">
+      <h2>CSES Problem Set</h2>
+      <p class="card-text">
+        The CSES Problem Set contains a collection of algorithm programming practice problems.
+        You can access the problems <a href="#">here</a>.
+      </p>
+    </section>
+
+    <section class="card block big tall blue">
+      <h2>Datatähti-valmennus</h2>
+      <p class="card-text">
+        Kokoelma harjoitustehtäviä, joiden avulla voit harjoitella Datatähtiä ja muita kilpailuja varten.
+        Pääset tehtäviin <a href="#">tästä</a>.
+      </p>
+    </section>
+
+    <section class="card block bottom orange">
+      <h2>CSES Blog</h2>
+      <ul class="bullet">
+        <li><a href="#">CSES Problem Set May 2025 Update</a></li>
+      </ul>
+
+      <h2 class="sub">CSES for Teachers</h2>
+      <p class="card-text">Using this new feature, teachers can create their own courses and track their students' progress.</p>
+      <ul class="bullet">
+        <li><a href="#">CSES for Teachers</a></li>
+      </ul>
+    </section>
+
+    <section class="card block bottom red">
+      <h2>BOI Contest Collection</h2>
+      <p class="card-text">This collection contains all Baltic Olympiad in Informatics contests from 2005 to 2021. You can access the contests <a href="#">here</a>.</p>
+
+      <h2 class="sub">CEOI Contest Collection</h2>
+      <p class="card-text">This collection contains all Central European Olympiad in Informatics contests from 2005 to 2021. You can access the contests <a href="#">here</a>.</p>
+    </section>
+  </main>
+
+  <div id="loginModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="loginTitle">
+    <div class="modal-inner" role="document">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <h3 id="loginTitle">Log in</h3>
+      <form class="login-form" onsubmit="event.preventDefault(); alert('Demo login clicked');">
+        <label>
+          Username
+          <input type="text" name="user" required>
+        </label>
+        <label>
+          Password
+          <input type="password" name="pass" required>
+        </label>
+        <div class="modal-actions">
+          <button type="submit" class="btn primary">Sign in</button>
+          <button type="button" class="btn" id="modalCancel">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const toggle = document.getElementById('themeToggle');
+    const html = document.documentElement;
+    if (localStorage.getItem('cses_demo_theme') === 'dark') html.classList.add('dark');
+
+    toggle.addEventListener('click', () => {
+      html.classList.toggle('dark');
+      localStorage.setItem('cses_demo_theme', html.classList.contains('dark') ? 'dark' : 'light');
+    });
+
+    const loginBtn = document.getElementById('loginBtn');
+    const modal = document.getElementById('loginModal');
+    const modalClose = document.getElementById('modalClose');
+    const modalCancel = document.getElementById('modalCancel');
+
+    function openModal() {
+      modal.setAttribute('aria-hidden','false');
+      modal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeModal() {
+      modal.setAttribute('aria-hidden','true');
+      modal.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    loginBtn.addEventListener('click', openModal);
+    modalClose.addEventListener('click', closeModal);
+    modalCancel.addEventListener('click', closeModal);
+    modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+  </script>
+</body>
+</html>
+
+
+
+
