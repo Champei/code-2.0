@@ -1,62 +1,26 @@
-# 📚 Simple Quiz App
+# App Development
 
-A lightweight mobile app that helps students prepare for exams by practicing quizzes in a simple and distraction-free way.  
-The app is offline-friendly and focuses on quick learning through multiple-choice questions (MCQs).
+App Development is about creating applications that run on mobile devices, helping bring ideas into users’ hands.  
+It combines **design, functionality, and performance** to make apps that solve real-world problems while being user-friendly.
 
----
-
-## 🚀 Problem Statement
-Students preparing for exams often need practice but get distracted on large platforms.  
-Most quiz apps are overloaded with ads, subscriptions, or unnecessary features.  
-This project solves the problem by providing a **minimal quiz app** where users can:
-- Attempt MCQs on different topics
-- Get instant feedback on answers
-- Track scores in a clean and user-friendly interface
-- Use the app offline without distractions
+In today’s tech landscape, app dev is not just about building mobile apps—it’s about understanding:
+- **Mobile ecosystems** (Android, iOS, cross-platform frameworks)  
+- **Efficient UI/UX design** for small screens  
+- **Offline-first principles** for accessibility  
+- **APIs, databases, and backend integration**  
+- **Security and deployment** for real-world use  
 
 ---
 
-## 🎯 Objectives
-- To create a beginner-friendly quiz application with essential features only.  
-- To allow students to practice multiple-choice questions anytime, anywhere.  
-- To provide instant scoring and feedback to improve learning.  
-- To keep the app lightweight, offline-friendly, and free from distractions.  
+## Files
+- [RESOURCES.md](./RESOURCES.md) – References and Learning Resources  
+- [PS1.md](./PS1.md) – Problem Statement, Objectives, Features, Tech Stack (for the *Simple Quiz App*)  
 
 ---
 
-## 📱 Features
-- ✅ Add quizzes with multiple-choice questions  
-- ✅ Attempt quizzes with timer support  
-- ✅ Instant scoring & correct answer feedback  
-- ✅ Simple progress tracking (high score, recent attempts)  
-- ✅ Offline usage (no internet required after setup)  
-- ✅ Minimal and clean UI  
+App Dev will give you the skills to build projects ranging from **small tools** to **production-ready apps**.  
+The journey starts with beginner-friendly projects and moves towards advanced, collaborative systems.
 
 ---
 
-## 🛠️ Tech Stack (Example)
-- **Frontend:** Kotlin / Java (Android Studio) or Flutter (Dart) or React Native  
-- **Backend:** Local Database (SQLite / Room)  or MongoDB
-
----
-
-## 📘 References & Learning Resources
-
-### 📌 Kotlin (Android Development)
-- [Kotlin Docs](https://kotlinlang.org/docs/home.html) – Official documentation  
-- [Android Developers Guide](https://developer.android.com/kotlin) – Build Android apps with Kotlin  
-- [Kotlin for Android Beginners (YouTube)](https://www.youtube.com/playlist?list=PLQkwcJG4YTCQNYdTjijO8VwTZL0Y9p2lV)  
-
-### 📌 Flutter (Dart)
-- [Flutter Docs](https://docs.flutter.dev/) – Official documentation  
-- [Flutter YouTube Channel](https://www.youtube.com/c/flutterdev) – Tutorials from Google  
-- [FreeCodeCamp Flutter Course](https://www.youtube.com/watch?v=VPvVD8t02U8)  
-
-### 📌 React Native
-- [React Native Docs](https://reactnative.dev/docs/getting-started) – Official documentation  
-- [React Native Express](https://www.reactnative.express/) – Beginner-friendly guide  
-- [FreeCodeCamp React Native Course](https://www.youtube.com/watch?v=0-S5a0eXPoc)  
-
-## 👨‍💻 PS Designed by
-- [Abhishek Raj] -
-
+**Credits:** Problem statement designed by [Abhishek Raj](https://github.com/abhishek130904)

@@ -25,4 +25,4 @@ These problems test your ability to translate a problem's rules directly into co
 - [Two-gram (977B)](https://codeforces.com/problemset/problem/977/B)  
   **Rating:** 900  
   **Topic:** Substring Counting  
-  <details><summary>Hint</summary>Iterate through all substrings of length 2. Use a map or dictionary to store the frequency of each two-gram. Then, find the one with the highest count.<br><br>Watch Tutorial: https://youtu.be/hMag-s8SYoI</details>
+  <details><summary>Hint</summary>Iterate through all substrings of length 2. Use a map or dictionary to store the frequency of each two-gram. Then, find the one with the highest count.</details>

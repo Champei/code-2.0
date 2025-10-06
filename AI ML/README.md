@@ -7,7 +7,7 @@ Since we are expecting beginners(as in, we don't expect you to know much, except
 ## Resources
 
 - [Kaggle Learn - Courses on the topic](https://www.kaggle.com/learn): Slow but steady
-- [3B1B - Neural Networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi): First 4 videos are enough. Can continue for interest. 
+- [3B1B - Neural Networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi): First 4 videos are enough. Can continue for interest. Personal favorite. 
 - [Patrick Loeber - Pytorch](https://youtu.be/c36lUUr864M?si=rGPrz-aWPjTHlYRL): The researcher's favorite framework.
 - [Aladdin Persson - TensorFlow](https://www.youtube.com/playlist?list=PLhhyoLH6IjfxVOdVC1P1L5z5azs0XjMsb): Google's own framework
 - [Murtaza's Workshop - OpenCV](https://youtu.be/WQeoO7MI0Bs?si=UrVALxkKLFfq0sDM): half of the fancy Computer Vision projects you see on the internet.
@@ -27,6 +27,24 @@ Well, there is...
 **Note:** The repo for this domain has been structured differently compared to others. This is because we do not intend to force a particular progression ladder on you. Select and try the PS you find interesting(and won't be overwhelmed with), and feel free to ask for more help and/or resources. All of us have been where you are currently, so nothing's unconquerable. 
 
 Well, without further ado...
+
+### [PS0](PS0.md)
+
+**NOTE**: It is advised not to spend too much time on this category. 
+
+> PS zyada hard de diye the... 
+
+1. 🏠 Problem Statement 0A: Predicting House Prices with Linear Regression
+
+Build a simple **Linear Regression model** to predict house prices from features like area, number of rooms, and location.
+
+> “Given house details, can we predict its price?”
+
+2. 🌳 Problem Statement 0B: Classifying with Decision Trees
+
+Train a **Decision Tree classifier** to predict categorical outcomes (e.g., student pass/fail, loan approval, or Titanic survival).
+
+> “Given features, can we decide the outcome using splits?”
 
 ### Beginner
 > Python hi aata hai..
